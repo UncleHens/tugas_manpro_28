@@ -110,6 +110,12 @@
                 </p>
             </div>
 
+            <div class="chapter" style="border: none;">
+                <p style="text-align: center; font-weight: bold; font-size: 1.5rem; color: #d63384;">
+                    Jangan Lupa Tungguin Sejarah Manis Selanjutnya !! 🍦
+                </p>
+            </div>
+
         </div>
 
         <footer>
@@ -118,4 +124,5 @@
     </div>
 
 </body>
+
 </html>
