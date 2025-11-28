@@ -1,0 +1,122 @@
+        /* CSS Reset & Typography */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff0f3; /* Warna pink pastel lembut */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Container Utama */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            overflow: hidden; /* Mencegah overflow */
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        /* Konten Artikel */
+        .content {
+            padding: 40px 20px;
+        }
+
+        .chapter {
+            margin-bottom: 60px;
+            position: relative;
+            padding-left: 20px;
+            border-left: 4px solid #ff9a9e; /* Garis timeline */
+        }
+
+        .chapter h2 {
+            color: #d63384;
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .chapter h3 {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+
+        .chapter p {
+            margin-bottom: 15px;
+            font-size: 1.05rem;
+            text-align: justify;
+        }
+
+        /* Styling Gambar */
+        .image-container {
+            width: 100%;
+            height: 300px;
+            margin: 20px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Highlight Box */
+        .fun-fact {
+            background-color: #e0f7fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 5px solid #00bcd4;
+            margin: 20px 0;
+        }
+
+        .fun-fact strong {
+            color: #008394;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 { font-size: 2.2rem; }
+            .image-container { height: 200px; }
+        }
